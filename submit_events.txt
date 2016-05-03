@@ -1,0 +1,14 @@
+Return-Path: info@sabf-hk.com
+From: [email]
+To: info@sabf-hk.com
+Subject: SABF Events Attendance Form
+
+
+Event Information Provided:
+
+Name              :  [name]
+Telephone         :  [tel]
+E-mail            :  [email]
+Event             :  [event]
+Number attending  :  [attend]
+Payment Method    :  [payment]

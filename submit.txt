@@ -1,0 +1,37 @@
+Return-Path: info@sabf-hk.com
+From: [email]
+To: info@sabf-hk.com
+Subject: SABF Membership Application Form
+
+
+Application Information Provided:
+
+Name                 :  [name]
+Position             :  [position]
+Company              :  [company]
+Address1             :  [address1]
+Address2             :  [address2]
+Address3             :  [address3]
+Telephone            :  [tel]
+Fax                  :  [fax]
+E-mail               :  [email]
+Site                 :  [site]
+Nature of Business   :  [nature]
+Membership Year      :  [when]
+Membership Required  :  [membership]
+Corporate 1 Name     :  [corpname]
+Corporate 1 Contact  :  [corpcontact]
+Corporate 1 Email    :  [corpmail]
+Corporate 2 Name     :  [corpname2]
+Corporate 2 Contact  :  [corpcontact2]
+Corporate 2 Email    :  [corpmail2]
+Corporate 3 Name     :  [corpname3]
+Corporate 3 Contact  :  [corpcontact3]
+Corporate 3 Email    :  [corpmail3]
+Corporate 4 Name     :  [corpname4]
+Corporate 4 Contact  :  [corpcontact4]
+Corporate 4 Email    :  [corpmail4]
+Individual Member    :  [indname]
+Individual Contact   :  [indcontact]
+Individual Email     :  [indmail]
+Payment Method:      :  [payment]

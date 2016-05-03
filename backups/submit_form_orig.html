@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+
+<title>SABF : Welcome to the South African Business Forum of Hong Kong</title>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- <script src="validation.js" language="javascript" type="text/javascript"></script> -->
+<script language="javascript" type="text/javascript">
+
+function validateForm(contact)
+{
+
+if(""==document.forms.contact.name.value)
+{
+alert("Please enter your full name.");
+document.forms.contact.name.focus();
+return false;
+}
+
+if(""==document.forms.contact.company.value)
+{
+alert("Please enter your company name.");
+document.forms.contact.company.focus();
+return false;
+}
+
+if(""==document.forms.contact.address1.value)
+{
+alert("Please enter your address.");
+document.forms.contact.address1.focus();
+return false;
+}
+
+if(""==document.forms.contact.tel.value)
+{
+alert("Please enter your phone number.");
+document.forms.contact.tel.focus();
+return false;
+}
+
+if(""==document.forms.contact.email.value)
+{
+alert("Please enter your email address.");
+document.forms.contact.email.focus();
+return false;
+}
+
+var email = document.getElementById('email').value; 
+document.getElementById('success').value = 'http://www.sabf-hk.com/process.html?email=' + email;
+
+}
+	
+</script>
+</head><body background="images/bg.jpg">
+	
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="760" height="400">
+<tbody><tr>
+<td><img src="images/header_new.jpg" width="760" height="165"></td>
+</tr><tr><td width="760" height="1"></td></tr>
+<tr>
+<td align="center" bgcolor="#0754a4" height="20">
+	<div class="style4">
+	<a href="http://www.sabf-hk.com/index.html">Home</a>&nbsp;|&nbsp; 
+	<a href="http://www.sabf-hk.com/about.html">About us</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/objectives.html">Objectives</a>&nbsp;|&nbsp; 
+	<a href="http://www.sabf-hk.com/member.html"> Membership</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/news.html"> News</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/events.html"> Events</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/links.html"> Links</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/contact.html">Contact us</a>
+	</div>
+</td>
+</tr>
+<tr><td width="760" height="1"></td></tr>
+<tr>
+<td>
+<table border="0" cellpadding="0" cellspacing="0" width="760" height="400">
+<tbody><tr>
+<td bgcolor="#973d4c" width="5" height="5"><img src="images/top_left.htm" width="5" height="5"></td>
+<td bgcolor="#973d4c" width="732"></td>
+<td bgcolor="#973d4c" width="5"><img src="images/top_right.htm" width="5" height="5"></td>
+</tr>
+<tr>
+<td bgcolor="#973d4c" width="5" height="628"></td>
+<td bgcolor="#ffffff" valign="top"><table align="center" border="0" cellpadding="0" cellspacing="0" width="700" height="500">
+<tbody><tr>
+<td bgcolor="#ffffff" valign="top" height="600">&nbsp;
+<div align="right"><br>
+  <table align="center" border="0" cellpadding="0" cellspacing="0" width="640">
+    <tbody><tr>
+			<script language="javascript" type="text/javascript">
+			// toggle forms
+			var current = 'one'
+			function show(id) {
+			document.getElementById(current).style.display = 'none';
+			document.getElementById(id).style.display = 'block';
+			current = id;
+			}			
+			</script>
+      <td align="left" valign="top" width="440">
+			<p><strong>SABF 2009 Membership Application Form</strong></p>
+			<p>Membership Fees: Corporate: HK$1,500 Individual: HK$500</p>
+			
+			<form action="../cgi-sys/cgiemail/submit.txt" method="post" name="contact">
+			<input name="success" id="success" type="hidden">
+
+			&nbsp;<img src="images/bullet_red.gif" alt="" vspace="2"> <strong><font color="#cc0000">= Required fields</font></strong>
+			<table cellpadding="4" cellspacing="0" border="0" width="100%" style="border:2px solid #fbe8cd;">
+				<tr><td bgcolor="#fbe8cd" width="40%">Name: <img src="images/bullet_red.gif" alt="" vspace="2"></td><td bgcolor="#fbe8cd"><input name="name" id="name" type="text" size="40"></td></tr>
+				<tr><td>Position:</td><td><input name="position" id="position" type="text" size="40"></td></tr>
+				<tr><td bgcolor="#fbe8cd">Company: <img src="images/bullet_red.gif" alt="" vspace="2"></td><td bgcolor="#fbe8cd"><input name="company" id="company" type="text" size="40"></td></tr>
+				<tr><td>Address: <img src="images/bullet_red.gif" alt="" vspace="2"></td><td><input name="address1" id="address1" type="text" size="40"></td></tr>
+				<tr><td></td><td><input name="address2" id="address2" type="text" size="40"></td></tr>
+				<tr><td></td><td><input name="address3" id="address3" type="text" size="40"></td></tr>
+				<tr><td bgcolor="#fbe8cd">Tel: <img src="images/bullet_red.gif" alt="" vspace="2"></td><td bgcolor="#fbe8cd"><input name="tel" id="tel" type="text" size="40"></td></tr>
+				<tr><td>Fax:</td><td><input name="fax" id="fax" type="text" size="40"></td></tr>
+				<tr><td bgcolor="#fbe8cd">Email: <img src="images/bullet_red.gif" alt="" vspace="2"></td><td bgcolor="#fbe8cd"><input name="email" id="email" type="text" size="40"></td></tr>
+				<tr><td>Website:</td><td><input name="site" id="site" type="text" size="40"></td></tr>
+				<tr><td bgcolor="#fbe8cd">Nature of Business:</td><td bgcolor="#fbe8cd"><input name="nature" id="nature" type="text" size="40"></td></tr>
+				<tr><td colspan="2"><em>Please tick the correct option for the following:</em></td></tr>
+				<tr><td>Membership Fee:</td><td valign="top">Corporate: <input name="membership" id="membership" value="Corporate" type="radio">&nbsp;&nbsp;&nbsp;&nbsp;Individual: <input name="membership" id="membership" value="Individual" type="radio"></td></tr>				
+				<tr><td colspan="2" align="center">
+					<a href="#" onclick="show('one'); return false;" class="showhide"><strong>&gt;&gt; Click to add Additional Corporate Members &lt;&lt;</strong></a>
+					<br>
+					<a href="#" onclick="show('two'); return false;" class="showhide"><strong>&gt;&gt; Click to add Individual Member Info &lt;&lt;</strong></a>
+					</td></tr>				
+				<tr><td colspan="2" align="center">
+				
+					<div id="one" style="display:none;">
+					<table cellpadding="3" cellspacing="0" border="0" class="forms">
+						<tr><td colspan="2" bgcolor="#ffcc99"><strong>Corporate Member Information</strong></td></tr>
+						<tr><td>Name:</td><td><input name="corpname" id="corpname" type="text" size="37"></td></tr>
+						<tr><td>Contact Number:</td><td><input name="corpcontact" id="corpcontact" type="text" size="37"></td></tr>
+						<tr><td>Email:</td><td><input name="corpmail" id="corpmail" type="text" size="37"></td></tr>
+						<tr><td colspan="2" bgcolor="#ffcc99"></td></tr>
+						<tr><td>Name:</td><td><input name="corpname2" id="corpname2" type="text" size="37"></td></tr>
+						<tr><td>Contact Number:</td><td><input name="corpcontact2" id="corpcontact2" type="text" size="37"></td></tr>
+						<tr><td>Email:</td><td><input name="corpmail2" id="corpmail2" type="text" size="37"></td></tr>
+						<tr><td colspan="2" bgcolor="#ffcc99"></td></tr>
+						<tr><td>Name:</td><td><input name="corpname3" id="corpname3" type="text" size="37"></td></tr>
+						<tr><td>Contact Number:</td><td><input name="corpcontact3" id="corpcontact3" type="text" size="37"></td></tr>
+						<tr><td>Email:</td><td><input name="corpmail3" id="corpmail3" type="text" size="37"></td></tr>
+						<tr><td colspan="2" bgcolor="#ffcc99"></td></tr>
+						<tr><td>Name:</td><td><input name="corpname4" id="corpname4" type="text" size="37"></td></tr>
+						<tr><td>Contact Number:</td><td><input name="corpcontact4" id="corpcontact4" type="text" size="37"></td></tr>
+						<tr><td>Email:</td><td><input name="corpmail4" id="corpmail4" type="text" size="37"></td></tr>
+					</table>
+					<br>
+					</div>
+					<div id="two" style="display:none;">
+					<table cellpadding="3" cellspacing="0" border="0" class="forms">
+						<tr><td colspan="2" bgcolor="#ffcc99"><strong>Individual Member Information</strong></td></tr>
+						<tr><td>Name:</td><td><input name="indname" id="indname" type="text" size="37"></td></tr>
+						<tr><td>Contact Number:</td><td><input name="indcontact" id="indcontact" type="text" size="37"></td></tr>
+						<tr><td>Email:</td><td><input name="indmail" id="indmail" type="text" size="37"></td></tr>
+					</table>
+					<br>
+					</div>
+				
+				</td></tr>
+				<tr><td bgcolor="#fbe8cd">Payment Method:</td><td bgcolor="#fbe8cd">Cheque: <input name="payment" id="payment" value="Cheque" type="radio">&nbsp;&nbsp;&nbsp;&nbsp;Bank Deposit: <input name="payment" id="payment" value="Deposit" type="radio"></td></tr>
+				<tr><td bgcolor="#fbe8cd" colspan="2" align="center" valign="top" style="padding:0px;font-size:10px;"><strong>(For Bank Deposit, bank details will be emailed to you)</strong></td></tr>
+				<tr><td colspan="2" align="center" height="35"><input type="reset" name="reset" class="button2"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="Submit" name="button" class="button" value="Submit Form" onClick="return validateForm(contact)"></td></tr>
+			</table>
+			</form>
+			
+			
+			<p><strong>Post cheques to:</strong></p>
+			SABF-HK<br>
+			Unit A, 23/F, One Capital Place<br>
+			18 Luard Road, Wanchai<br>
+			HONG KONG<br>
+			<br><br><br><br>
+      </td>
+      <td align="right" valign="top"><img src="images/join.jpg" alt="SABF Honk Kong" title="SABF Honk Kong"></td>
+    </tr>
+  </tbody></table>
+</div></td>
+</tr>
+</tbody></table>
+<div align="center">
+<img src="images/wingding.jpg" width="265" height="17">
+</div>
+</td>
+<td bgcolor="#973d4c" width="5" height="628"></td>
+</tr>
+<tr>
+<td bgcolor="#973d4c" width="5" height="5">
+<img src="images/bottom_left.jpg" width="5" height="5"></td>
+<td bgcolor="#973d4c" width="5" height="5"></td>
+<td bgcolor="#973d4c" width="5" height="5">
+<img src="images/bottom_right.jpg" width="5" height="5"></td>
+      </tr>
+</tbody></table>
+</td>
+</tr><tr><td width="760" height="1"></td></tr>
+<tr>
+<td align="center" bgcolor="#0754a4" height="20">
+	<div class="style5">
+	<a href="http://www.sabf-hk.com/index.html">Home</a>&nbsp;|&nbsp; 
+	<a href="http://www.sabf-hk.com/about.html">About us</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/objectives.html">Objectives</a>&nbsp;|&nbsp; 
+	<a href="http://www.sabf-hk.com/member.html"> Membership</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/news.html"> News</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/events.html"> Events</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/links.html"> Links</a>&nbsp;|&nbsp;
+	<a href="http://www.sabf-hk.com/contact.html">Contact us</a>
+	</div></td>
+</tr>
+</tbody></table>
+</body></html>
